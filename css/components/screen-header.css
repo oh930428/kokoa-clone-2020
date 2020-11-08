@@ -10,6 +10,18 @@
     font-size: 32px;
     font-weight: 600;
 }
-.screen-header__icons span {
+.screen-header__icons {
+    position: relative;
+}
+.screen-header__icons span:not(.screen-header__icons-cog-badge) {
     margin-left: 25px;
+}
+.screen-header__icons-cog-badge {
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+    position: absolute;
+    margin-left: 1px;
+    bottom: 17px;
 }

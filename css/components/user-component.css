@@ -22,6 +22,9 @@
     font-size: 17px;
     color: rgba(0, 0, 0, 0.5);
 }
+.user-component__subtitle .fa-exclamation-circle {
+    margin-left: 4px;
+}
 .user-component__avater--xl {
     width: 80px;
     height: 80px; 
